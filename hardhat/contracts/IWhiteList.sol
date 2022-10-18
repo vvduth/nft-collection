@@ -7,6 +7,6 @@ pragma solidity ^0.8.4;
 // wee just need to return mappin adress => boolean
 // this way we dont need to inherit and deplot the entire whitlist contract but only part of it
 
-interface IWhiteList {
-    function whitelistedAddress(address) external view returns (bool) ; 
+interface IWhitelist {
+    function whitelistedAddresses(address) external view returns (bool) ; 
 }
