@@ -93,6 +93,12 @@ contract CryptoDevs is ERC721Enumerable, Ownable {
    function withdraw() public onlyOwner {
     address _owner = owner() ;
     uint256 amount = address(this).balance ; 
-    
+    (bool sent, ) = _owner.call{value: amount}("") ; 
    }
+
+     // Function to receive Ether. msg.data must be empty
+    receive() external payable {}
+
+    // Fallback function is called when msg.data is not empty
+    fallback() external payable {}
 }
