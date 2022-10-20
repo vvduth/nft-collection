@@ -6,4 +6,4 @@
 * Your collection will be visible in OpenSea 
 * Join the [whitelist here](https://pukedukewhitelist.vercel.app/) for gaining access to the presale period
 
-![pic1](showcase1.png)
+![https://nft-collection-kappa-nine.vercel.app/](showcase1.png)
